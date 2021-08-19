@@ -1,0 +1,110 @@
+body {
+	background: url(fondo1.png);
+}
+.menumodulo  li, a {
+        margin-top: 15px; 
+        margin: 0;
+        display:flex;
+        padding: 10px 10px;
+        color: black;
+        font-family: Arial Black;
+        text-decoration:none;
+        font-size: 17px;        
+    }
+      .menumodulo li:hover{
+      	height: 40px;
+        color: black;
+        transition: all ,1s;
+        background: #e3c794;
+        box-shadow: 0 0 0 2px #ccefed,
+                    0 5px 0;       
+    }
+ .navmodulo {
+        width: 100%;
+        height: 65px;
+        margin-top: -8px; 
+        background: #93f3f6; 
+       
+    }
+    
+.menumodulo {
+        list-style: none;
+        text-align: left; 
+        margin-top: 15px;      
+        
+    }
+    
+.menumodulo, li {
+        margin-top: 15px;
+        margin: auto;
+        display: flex;
+        text-align:center; 
+        padding: 0;
+    }
+
+
+.sesion {
+	list-style: none;
+	padding: 1px;
+	margin-left:1150px;
+	margin-top: -50px;
+	font-size: 15px;
+	text-align: center;
+	background: #ffff;
+	border:outset;		
+	width: 130px;
+	height: 30px;
+	font-family: Arial Black;
+	cursor: pointer;		
+
+}
+.sesion:hover {
+	border: 1px solid black;
+	box-shadow: 0 0 0 0 ,
+				0 1px 5px;
+	background: #e3c794;
+	transition: all 1s; 
+}
+
+.titulo h1 {
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: 600px;
+    background: #FFF;
+    border:1px solid black;
+    width: 178px;
+     box-shadow: 0 0 0 0 black,
+                    0 5px 15px;
+}
+.titulo img {
+    margin-top: -10px;
+    margin-left: 600px;
+    background: #FFF;
+}
+.tabla {
+    margin-left: 500px;
+    margin-top: 20px;
+    background: #FFF;
+    border:1px solid black;
+    border-collapse: collapse;
+     box-shadow: 0 0 0 0 black,
+                    0 5px 15px;
+
+}
+.tabla td {
+    padding: 10px;
+    width: 200px;
+    text-align: center;
+}
+.lapiz img {
+        margin-left: 950px; 
+        width: 50px;
+        height: 50px;
+        cursor: pointer;
+}
+.lapiz img:hover {
+     box-shadow: 0 0 0 2px black,
+                    0 5px 15px;
+     transition: 0.5s;
+}
+
